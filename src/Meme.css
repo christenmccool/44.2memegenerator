@@ -7,6 +7,23 @@
   height: 100%;
 }
 
+.Meme-remove-div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 250px;
+  color: transparent;
+  padding: 0;
+}
+
+.Meme-remove-div:hover {
+  background-color: grey;
+  color: darkgrey;
+  opacity: 0.5;
+}
+
 .Meme-btn {
   position: absolute;
   left: 0;
@@ -19,7 +36,7 @@
   color: white;
   font-size: 30px;
   text-align: center;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .Meme-top-caption {
