@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Meme"
+  >
+    <img
+      alt="a meme"
+      class="Meme-img"
+      src="www.google.com"
+    />
+    <div
+      class="Meme-top-caption"
+    >
+      hi
+    </div>
+    <div
+      class="Meme-bottom-caption"
+    >
+      bye
+    </div>
+    <div
+      class="Meme-remove-div"
+    >
+      X
+    </div>
+  </div>
+</DocumentFragment>
+`;
