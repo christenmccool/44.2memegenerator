@@ -1,0 +1,35 @@
+.Meme {
+  height: 300px;
+  position: relative;
+}
+
+.Meme-img {
+  height: 100%;
+}
+
+.Meme-btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 3px;
+}
+
+.Meme-top-caption, .Meme-bottom-caption {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.Meme-top-caption {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Meme-bottom-caption {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
