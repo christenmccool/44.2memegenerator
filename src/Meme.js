@@ -1,11 +1,12 @@
 import React from 'react';
-import {useDispatch} from 'react-redux';
+// import {useDispatch} from 'react-redux';
 import './Meme.css';
 
-const Meme = ({id, url, top, bottom}) => {
-  const dispatch = useDispatch();
-  const handleClick = (evt) => {
-    dispatch({type:"REMOVE_MEME", id})
+const Meme = ({id, url, top, bottom, removeMeme}) => {
+  // const dispatch = useDispatch();
+
+  const handleClick = () => {
+    removeMeme(id);
   }
 
   return (

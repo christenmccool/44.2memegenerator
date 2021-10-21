@@ -2,7 +2,7 @@ import { render, asFragment,fireEvent } from '@testing-library/react';
 import {createStore} from "redux";
 import {Provider} from "react-redux";
 import memeReducer from './memeReducer';
-import MemeForm, {addMeme} from './MemeForm';
+import MemeForm from './MemeForm';
 
 const store = createStore(memeReducer);
 

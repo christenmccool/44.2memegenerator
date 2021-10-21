@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import {useDispatch} from 'react-redux';
+// import {useDispatch} from 'react-redux';
 import { v4 as uuid } from 'uuid';
 import './MemeForm.css'
 
-const MemeForm = () => {
+const MemeForm = ({addMeme}) => {
   const initialState = {
     url: "",
     top: "",
@@ -11,8 +11,8 @@ const MemeForm = () => {
   }
   const [formData, setFormData] = useState(initialState);
 
-  const dispatch = useDispatch();
-  const addMeme = (meme) => dispatch({ type: "ADD_MEME", payload: meme });
+  // const dispatch = useDispatch();
+  // const addMeme = (meme) => dispatch({ type: "ADD_MEME", payload: meme });
 
   const handleChange = (evt) => {
     const {name, value} = evt.target;
